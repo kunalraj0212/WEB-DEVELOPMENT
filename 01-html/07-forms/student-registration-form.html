@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recreating the Registration Form- </title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="/server">
+        <input type="text" placeholder="First Name" name="fName" id="FName">
+        <input type="text" placeholder="Last Name" name="lName" id="LName">
+        <br>
+
+        <label for="gender">Please Select Gender</label>
+        <select name="gender" id="gender">
+            <option value="m" selected>Male</option>
+            <option value="f">Female</option>
+            <option value="o">Other</option>
+        </select>
+        <br>
+
+        <label for="terms and condition">
+            Do you agree to all terms of service?
+            <input type="checkbox" checked>
+            yes, i agree
+        </label>
+        <br>
+
+        <button type="submit">Register</button>
+
+
+    </form>
+    
+</body>
+</html>
